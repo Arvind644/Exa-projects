@@ -1,29 +1,28 @@
 # Exa Websets - Python Projects (Minimal Terminal Collection)
 
-Welcome to the **Exa Websets Minimal Terminal Collection** - 3 progressively complex Python projects designed specifically for YouTube video demonstrations! Each project is streamlined to the absolute minimum code necessary, completely terminal-based, and perfect for recording coding tutorials.
+Welcome to the **Exa Websets Minimal Terminal Collection** - 3 progressively complex Python projects that demonstrate Exa Websets API capabilities! Each project is streamlined to the essential code, completely terminal-based, and perfect for learning.
 
-## ✨ Minimal Design Philosophy
+## ✨ Design Philosophy
 
 🖥️ **Terminal-Only** - Pure console applications, no UI dependencies  
-📝 **Minimal Code** - Absolute minimum lines for maximum learning  
+📝 **Minimal Code** - Essential code for maximum learning impact  
 💾 **No Databases** - All data stored in memory, no persistence complexity  
 ⚡ **Lightweight** - Minimal dependencies, instant startup  
-📺 **Video-Perfect** - Designed specifically for clear video demonstrations  
+🎯 **Educational** - Designed for clear understanding and learning  
 
-## 🎥 Video-Ready Features
+## 🎯 Key Features
 
 - **Terminal-only** - Pure console applications, no UI dependencies
-- **Minimal code** - Absolute minimum lines for maximum clarity
+- **Minimal code** - Essential code for maximum clarity
 - **No databases** - In-memory storage, no setup complexity
 - **Clear output** - Visual progress indicators and formatted results
-- **Fast execution** - Optimized for demo timeframes
+- **Fast execution** - Quick demonstrations of capabilities
 - **Progressive complexity** - Build skills step by step
 
 ## 📚 Projects Overview
 
 ### 🔍 Project 1: Simple Webset Search (⭐ Beginner)
 **File:** `1_simple_webset_search.py`  
-**Demo Time:** ~5 minutes  
 **Lines of Code:** ~80
 
 The perfect starting point! Learn webset basics with minimal code:
@@ -37,7 +36,6 @@ The perfect starting point! Learn webset basics with minimal code:
 
 ### 📊 Project 2: Enriched Webset Analyzer (⭐⭐ Intermediate)
 **File:** `2_enriched_webset_analyzer.py`  
-**Demo Time:** ~8 minutes  
 **Lines of Code:** ~120
 
 Add intelligence to your searches with enrichments:
@@ -51,7 +49,6 @@ Add intelligence to your searches with enrichments:
 
 ### 🔔 Project 3: Webset Monitor (⭐⭐⭐ Advanced)
 **File:** `3_webset_monitor_dashboard.py`  
-**Demo Time:** ~10 minutes  
 **Lines of Code:** ~100
 
 Real-time monitoring with in-memory tracking:
@@ -61,11 +58,11 @@ Real-time monitoring with in-memory tracking:
 
 **Dependencies:** `requests`, `python-dotenv`
 
-## 🚀 Quick Start for Video Recording
+## 🚀 Quick Start
 
 ### Prerequisites
 ```bash
-# Install minimal dependencies only!
+# Install dependencies
 pip install requests python-dotenv pandas
 
 # Set up environment variables
@@ -73,19 +70,19 @@ cp env_example.txt .env
 # Edit .env with your API keys
 ```
 
-### Recording Tips
+### Usage Tips
 
 1. **Start Simple**: Begin with Project 1 to establish concepts
-2. **Show Progress**: Each project displays clear progress indicators
-3. **Explain Output**: All projects have formatted, readable terminal output
+2. **Follow Progress**: Each project displays clear progress indicators
+3. **Understand Output**: All projects have formatted, readable terminal output
 4. **Build Complexity**: Each project builds on previous concepts
-5. **No Setup**: No databases or complex configurations needed
+5. **No Setup Complexity**: No databases or complex configurations needed
 
-### Video-Friendly Execution
+### Execution
 
-Each project is designed to run smoothly for video demos:
+Each project is designed for smooth operation:
 - Clear console output with emojis and formatting
-- Reasonable execution times (5-15 minutes max)
+- Reasonable execution times
 - Error handling for common issues
 - Progressive feedback during processing
 - No external dependencies on browsers, databases, or complex setups
@@ -115,27 +112,27 @@ That's it! No complex configurations needed.
 - ✅ No web servers
 - ✅ No external services (except APIs)
 
-## 🎬 Video Recording Best Practices
+## 💡 Best Practices
 
-### Before Recording:
+### Before Running:
 1. Test each project thoroughly
 2. Prepare your API keys
-3. Clear your terminal/IDE
-4. Have example outputs ready
+3. Clear your terminal for clean output
+4. Review expected outputs
 
-### During Recording:
-1. Explain each step clearly
-2. Show the code structure first
-3. Run the project step by step
-4. Highlight key output sections
+### During Execution:
+1. Follow each step carefully
+2. Understand the code structure
+3. Run projects step by step
+4. Monitor key output sections
 5. Keep terminal window focused
 
-### Code Walkthrough Tips:
-1. Start with imports and setup (minimal)
-2. Explain the main class structure (simple)
-3. Walk through key methods (concise)
-4. Show the main execution flow (linear)
-5. Demonstrate the terminal output (clear)
+### Code Understanding:
+1. Review imports and setup (minimal)
+2. Understand the main class structure (simple)
+3. Study key methods (concise)
+4. Follow the main execution flow (linear)
+5. Analyze the terminal output (clear)
 
 ## 📖 Learning Path
 
@@ -146,21 +143,20 @@ That's it! No complex configurations needed.
 ## 🔗 Resources
 
 - [Exa Websets API Documentation](https://docs.exa.ai/websets)
-- [Video Tutorial Series](#) *(coming soon)*
 - [GitHub Repository](https://github.com/your-repo/websets-demos)
 
 ## 🤝 Contributing
 
-Found a bug or have an improvement? These projects are designed for educational purposes and video demonstrations. Feel free to:
+Found a bug or have an improvement? These projects are designed for educational purposes and learning. Feel free to:
 - Report issues
 - Suggest improvements
-- Share your video creations
+- Share your implementations
 - Submit pull requests
 
 ## 📝 License
 
-MIT License - Feel free to use these projects in your own videos and tutorials!
+MIT License - Feel free to use these projects in your own learning and development!
 
 ---
 
-**Happy coding and happy filming! 🎥📊** 
+**Happy coding! 🎯📊** 
