@@ -1,6 +1,29 @@
-# AI Voice Newsletter Generator
+# AI Newsletter Generator Suite
 
-🎙️ **Automated AI-powered newsletter generation with voice synthesis and email delivery**
+🎙️ **Automated AI-powered newsletter generation with multiple delivery options**
+
+Two powerful newsletter generators for different use cases:
+
+## 📚 Available Tools
+
+### 1. **AI Voice Newsletter** (`ai_news.py`)
+Full-featured newsletter with email delivery and voice synthesis
+- 🎵 Audio synthesis with ElevenLabs
+- 📧 Email delivery via Composio/Gmail
+- 🔍 Content generation with Exa Answer API
+
+### 2. **AI Websets Newsletter** (`ai_news_websets.py`) ⭐ NEW
+Streamlined newsletter generation using Exa Websets for curated content
+- 🔍 Exa Websets API for intelligent content curation
+- 🧠 Smart enrichments with summaries and impact analysis
+- 📊 Professional formatting with source transparency
+- 💾 Local file output (no email/audio complexity)
+
+**👉 [See Websets README](README_websets.md) for detailed documentation**
+
+---
+
+## AI Voice Newsletter (`ai_news.py`)
 
 An intelligent newsletter generator that creates comprehensive AI & Technology newsletters using the latest news sources, converts summaries to audio, and delivers content via email with smart character limit handling.
 
@@ -270,6 +293,37 @@ python ai_news.py --email-with-audio 2>&1 | tee debug.log
 
 ### **File an Issue**
 If you encounter persistent issues, check the console output for specific error messages and include them when seeking support.
+
+---
+
+## 🤔 Which Tool Should I Use?
+
+### Choose **AI Voice Newsletter** (`ai_news.py`) if:
+- ✅ You want email delivery to subscribers
+- ✅ You need audio versions for accessibility/convenience
+- ✅ You want a complete automated workflow
+- ✅ You have multiple API keys setup (Exa + ElevenLabs + Composio/OpenAI)
+
+### Choose **AI Websets Newsletter** (`ai_news_websets.py`) if:
+- ✅ You want the highest quality, curated content
+- ✅ You prefer to handle distribution yourself
+- ✅ You want detailed article analysis and enrichments
+- ✅ You only want to setup one API key (Exa)
+- ✅ You want to see the webset creation process transparently
+- ✅ You're building a content pipeline or need structured data
+
+### Quick Comparison
+
+| Feature | Voice Newsletter | Websets Newsletter |
+|---------|------------------|-------------------|
+| **Content Quality** | Good (Answer API) | Excellent (Curated + Enriched) |
+| **Setup Complexity** | High (3-4 API keys) | Low (1 API key) |
+| **Email Delivery** | ✅ Automated | ❌ Manual |
+| **Audio Generation** | ✅ Yes | ❌ No |
+| **Content Enrichments** | ❌ Basic | ✅ Advanced (summaries, impact analysis) |
+| **Source Transparency** | ❌ Limited | ✅ Full webset visibility |
+| **Output Format** | Text + Audio + Email | Text + JSON |
+| **Best For** | Automated distribution | Content analysis & curation |
 
 ---
 
